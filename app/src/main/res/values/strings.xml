@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mehedi Hasan</string>
+    <string name="offline_title">No Internet Connection</string>
+    <string name="offline_message">We could not connect to the server. You can try refreshing or view cached content.</string>
+    <string name="btn_retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="location_permission_rationale">Location access is required to display your current location on interactive maps.</string>
+</resources>

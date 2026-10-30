@@ -1,0 +1,6 @@
+{
+  "name": "Mehedi Hasan",
+  "description": "High-performance offline-capable WebView app for https://mehedi-hasan.ai.studio/ with advanced caching, dynamic maps support, and modern Android features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
