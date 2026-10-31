@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Mehedi Hasan</string>
-    <string name="offline_title">No Internet Connection</string>
-    <string name="offline_message">We could not connect to the server. You can try refreshing or view cached content.</string>
-    <string name="btn_retry">Retry</string>
-    <string name="loading">Loading…</string>
-    <string name="location_permission_rationale">Location access is required to display your current location on interactive maps.</string>
+    <string name="offline_title">ইন্টারনেট সংযোগ নেই</string>
+    <string name="offline_message">ইন্টারনেটের সাথে সংযোগ করা সম্ভব হয়নি। আপনার ইন্টারনেট সংযোগ চেক করে পুনরায় চেষ্টা করুন।</string>
+    <string name="btn_retry">পুনরায় চেষ্টা করুন</string>
+    <string name="loading">লোড হচ্ছে…</string>
+    <string name="location_permission_rationale">মানচিত্রে আপনার বর্তমান অবস্থান দেখানোর জন্য লোকেশন অনুমতির প্রয়োজন।</string>
 </resources>

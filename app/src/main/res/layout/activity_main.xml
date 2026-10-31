@@ -4,14 +4,14 @@
     android:id="@+id/rootContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0A0E1A"
+    android:background="#090E17"
     tools:context=".MainActivity">
 
     <WebView
         android:id="@+id/webView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#0A0E1A" />
+        android:background="#090E17" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -22,20 +22,50 @@
         android:indeterminate="false"
         android:max="100"
         android:progress="0"
-        android:progressTint="#29B6F6"
+        android:progressTint="#06B6D4"
         android:progressBackgroundTint="#1E293B"
         android:visibility="gone"
         tools:progress="60"
         tools:visibility="visible" />
 
+    <FrameLayout
+        android:id="@+id/splashLoader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#090E17"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:indeterminateTint="#06B6D4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:letterSpacing="0.05"
+                android:text="@string/loading"
+                android:textColor="#94A3B8"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </FrameLayout>
+
     <LinearLayout
         android:id="@+id/errorLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#090E17"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="32dp"
-        android:background="#0A0E1A"
         android:visibility="gone"
         tools:visibility="gone">
 
@@ -46,7 +76,7 @@
             android:layout_marginBottom="24dp"
             android:contentDescription="@string/offline_title"
             android:src="@drawable/ic_cloud_off"
-            android:tint="#818CF8" />
+            android:tint="#38BDF8" />
 
         <TextView
             android:id="@+id/tvErrorTitle"
@@ -74,7 +104,7 @@
             android:id="@+id/btnRetry"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:backgroundTint="#3B82F6"
+            android:backgroundTint="#0284C7"
             android:minWidth="160dp"
             android:text="@string/btn_retry"
             android:textColor="#FFFFFF"
